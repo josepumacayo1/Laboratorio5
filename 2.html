@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fabrica de Gaseosas</title>
+    </head>
+    <body>
+        <form method="post" action="http://localhost/lab5/2.php">
+            <table style="text-align: left; margin-left: auto; margin-right: auto;" border="1" cellpadding="1" cellspacing="1">
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="gaseosa_3_litros">Ingrese el precio de las gaseosas</label>
+                        </td>
+                        <td>
+                            <input name="gaseosa_3_litros" required="required"  type="number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cantidad">Ingrese la cantidad</label>
+                        </td>
+                        <td>
+                            <input name="cantidad" required="required" step="0.000001" type="number">
+                        </td>
+                    </tr>    
+                    <tr align="center">
+                        <td colspan="2" rowspan="1">
+                            <input value="Procesar" type="submit"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+       </form>
+    </body>
+</html>
